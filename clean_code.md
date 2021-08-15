@@ -20,5 +20,16 @@ Portanto, separar uma função grande em muitas pequenas geralmente nos perfmite
 
 ## Capítulo 11 - Sistemas
 
-* **Como você constroi uma cidade**
-<p>
+* **Injeção de dependência**
+<p>A IoC (inversão de controle) move as responsabilidades secundárias de um objeto para outros dedicado ao propósito que se deseja, desta forma suportando o Princípio da Responsabilidade Única. Em vez disse ela deve passar esta responsabilidade para outro mecanismo "dominante", com isso invertendo o controle. Como esta configuração é uma preocupação global, este mancanismo dominante geralmente será ou uma rotina "principal" ou um container de tarefas especificas.</p>
+ A Injeção de Dependência verdadeira vai mais além. A classe não determina diretamente suas dependências, ela fica completamente passiva e oferece métodos de escritas <i>(setters)</i> ou parâmetros de construturos (ou ambos) que serão utilizados para injetar dependências.(P.157)</br>
+ Fazendo analogia a uma cidade, no começo não há serviços, como abastecimento de energia, água, esgoto e Internet. E só serão adicionados quando aumentar a densidade da população e edificações.(P.157)</br>
+ Mas esse desenvolvimento não esta livre de problemas. Quantas vezes, devido a um projeto de "melhoria" das avenidas você dirigiu por engarrafamentos e se perguntou: "Por que não construíram as ruas largas o bastante desde o ínicio?".(P.157)</br>
+ Mas não podia ter sido de outro forma. Como justificar o custo de construções de uma via expressa de seis faixas passando no meio de uma cidade pequena já antecipando seu desenvolvimento?.(P.157) [KISS](https://pt.wikipedia.org/wiki/Princ%C3%ADpio_KISS) </br>
+ É mito dizer que podemos conseguir um sistema "correto de primeira". Em vez disso, devemos implementar apenas os fatos de hoje e, então refatorar e expandir o sistema, implementando novos fatos amanhã. Essa é a essência das agilidades iterativas e incremental.(P.158)</p>
+
+ * **Use padrões sabiamente quanto eles adicionares um valor demonstrativo**
+<p></p>
+
+* **Sistemas precisam de linguagens específicas a um domínio**
+<p>Linguagens Específicas de Domínio permitem todos os níveis de abastração e todos os domínios na aplicação serem expressas como POJOs, de um nível mais alto de regra e detalhes de um nível mais baixo.</p>
