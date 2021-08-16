@@ -68,13 +68,14 @@ Poderíamos ter implementações separadas para cada método. O ```isEmpty``` po
         return o == size();
     }
 ```
-[mais um exemplo]()
+[Outro exemplo](https://github.com/EvandroCarvalho/clean-code/tree/main/src/com/study/capitulo12)</br>
+Design Pattern utilizado no exemplo - [Template Method](https://refactoring.guru/design-patterns/template-method)
 
 ## Expressividade
 Escerver código que nós entendamos é fácil, pois quando o fazemos, possuímos um conhecimento profundo do problema que desejamos resolver. Mas outras pessoas que pegarem esse mesmo código não terão esse mesmo grau de conhecimento.(P.175)</br>
 A maioria dos custos de um projeto de software está na manutenção em longo prazo. Conforme sistemas se tornam mais complexos, um desenvolvedor leva cada vez mais tempo para compreendê-lo, e sempre há chance ainda maior de mal entendidos. Portanto, o codigo deve expressar claramente o propósito do seu autor. Isso reduz defeito e custo de manutenção.(P.175)</br>
 Você pode expressar atráves de bons nomes, mantendo classes pequenas que costumam ser mais fáceis de nomear, criar e entender.(P.175)</br>
-Os padrões de projetos, por exemplo, são amplamente modos de comunicação e expressividade. Ao usar nomes de padrões como [COMMAND]() ou [VISITOR](), no nome das classes que implementam tais padrões, você pode descrever de forma sucinta o seu projeto para outros desenvolvedores.(P.175)</br>
+Os padrões de projetos, por exemplo, são amplamente modos de comunicação e expressividade. Ao usar nomes de padrões como [COMMAND](https://refactoring.guru/design-patterns/command) ou [VISITOR](https://refactoring.guru/design-patterns/visitor), no nome das classes que implementam tais padrões, você pode descrever de forma sucinta o seu projeto para outros desenvolvedores.(P.175)</br>
 Testes de unidade bem escritos também são expressivos.(P.175)</br>
 Portanto, tenha um pouco de orgulho em seu trabalho. Gaste tempo em cada uma das suas funções e classes. Escolha nomes melhores, divida funções grandes em menores e, de forma geral, cuide do que você mesmo criou.(P.176)
 
